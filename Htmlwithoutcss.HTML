@@ -4,11 +4,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Html</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<h1>Portfolio</h1>
+<div class="background">
+<h1 class="title">Portfolio</h1>
 <body>
-    <nav>
-        <a href="#home" style="text-decoration: none ;">Home</a>
+    <nav class="nav">
+        <a href="#home" style="text-decoration: none ;" >Home</a>
             &nbsp; &nbsp;
         <a href="#About" style="text-decoration: none ;">About</a>
             &nbsp; &nbsp;
@@ -20,29 +22,31 @@
             &nbsp; &nbsp;
         <Hr></Hr>
     </nav>
-
-<div>
+<div class="infos">
+    
     Nom : Boudekhana
         <br>
     Prenom : abdeldjallil
         <br>
     Age: 18 ans
         <br>
-    <img src="Asset/38A961E1-8AC9-455D-9B7B-005D0AF83D6E.jpg" alt="photo" height="300px" width="300px" >
+    
+    <img src="Asset/38A961E1-8AC9-455D-9B7B-005D0AF83D6E.jpg" alt="photo" height="300px" width="300px"  class="img">
         <Hr></Hr>
 </div>
-<div>
-    <H1> About </H1>
+<div class="intro">
+    <H1 class="title2"> About </H1>
     <h3>Greetings!</h3>
         <p>
             I am abdel djallil boudekhana, im 18 years old , i am a former full stack Web developper  <br> i learn Full stack in <a href="https://gomycode.com/" style="text-decoration: none">Gomycode</a> with my instructor Walid Berrouk           
         </p>
 </div>
-<div>
-    <h1> Work </h1>
-    <p>This is basicly how i will put my examples because i dont have any work </p>
+<div class="work">
+    <h1 class="title3"> Work </h1>
+    <p class="p">This is basicly how i will put my examples because i dont have any work </p>
     <table>
         <ol>
+            <div class="examples">
             <li>
                 Example 1 <a href="" style="text-decoration:none;">➡️</a>
                 <br>
@@ -55,16 +59,17 @@
             </li>
             </li>
             </li>
+        </div>
         </ol>
     </table>
 </div>
 <hr>
 <div>
-    <h1> resume </h1>
-        <p>This website is basicly my first web development project which is built only using html </p>
+    <h1 class="resume"> resume </h1>
+        <p class="p2">This website is basicly my first web development project which is built only using html </p>
             <hr>
 </div>
-<div>
+<div class="final">
     <h1> Contact </h1>
         <table>
             <tr>
@@ -86,7 +91,6 @@
                 <button>
                     Submit
                 </button>
-
             </tr>
         </table>
 </div>
@@ -96,7 +100,7 @@
         <td>
             <table>
                 <tr>
-                    <td>
+                    <td class="td">
                         ©Copyright 2022 by abdeldjallil All rights reserved
                     </td>
                 </tr>
@@ -106,4 +110,5 @@
 </Table>
 </footer>
 </body>
-</html> 
+</div>
+</html>
